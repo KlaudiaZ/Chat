@@ -6,12 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Chat</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="/build.css" />
     <script src="/build.js"></script>
 </head>
 
 <body>
-    <p id="start-info">Chat</p>
+    <div class="main">
+        <p id="start-info">LAiT Chat</p>
+        <div class="login">
+            <div class="form">
+                <p>Username</p>
+                <input type="text" id="username" placeholder="Username">
+                <br>
+                <button class="button" id="enter-chat">Enter Chat</button>
+            </div>
+        </div>
+        <div class="chat-window">
+            <div class="messages" id="messages">
+
+            </div>
+            <div class="new-message">
+                <input type="text" id="new-message" placeholder="New message">
+                <button class="button" id="add-message">Add</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
