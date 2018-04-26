@@ -1,7 +1,7 @@
 import Navigo from 'navigo';
 import { showLoginWindow, showChatWindow } from './chat';
 
-const router = new Navigo();
+export const router = new Navigo();
 
 export const initRouting = () => {
     router

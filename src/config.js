@@ -4,6 +4,6 @@ export default {
     url: {
         chatLogin: server + "chatlogin",
         getMessages: server + "chat",
-        sendMessage: server + "chat/"
+        sendMessage: server + "chat"
     }
 }
